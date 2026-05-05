@@ -1,0 +1,47 @@
+# Build output
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Qt generated files
+*.autogen/
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# Binaries / objects
+*.o
+*.obj
+*.so
+*.a
+*.out
+*.exe
+telemetry_app
+
+# Logs / runtime output
+*.log
+data/rejected_rows.log
+
+# Secrets / local env
+.env
+.env.*
+*.secret
+*.key
+*.pem
+
+# Backup / scratch / old source variants
+*.bak
+*.bak2
+*.bak3
+*.before-*
+*.working-*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
