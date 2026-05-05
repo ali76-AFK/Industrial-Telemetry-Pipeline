@@ -110,10 +110,6 @@ make -j$(nproc)
 - Data-ingestion workflow design
 - Demo-ready application testing
 
-## CV-ready summary
-
-Built a C++/Qt desktop telemetry ingestion application that loads industrial CSV data into Microsoft SQL Server via ODBC, supports connect/disconnect/refresh workflows, validates file inputs, enables reset-and-append ingestion modes, and logs malformed rows through a reject-file pipeline.
-
 ## Future improvements
 
 - background worker thread for long-running ingestion jobs
