@@ -1,5 +1,9 @@
 # Industrial Telemetry Pipeline
 
+<p align="center">
+  <img src="./telem.png" alt="Industrial Telemetry Pipeline GUI processing" width="900">
+</p>
+
 A C++/Qt desktop application for ingesting industrial telemetry CSV data into Microsoft SQL Server through ODBC, with input validation, refreshable database views, and reject-log handling for malformed records.
 
 ## Overview
